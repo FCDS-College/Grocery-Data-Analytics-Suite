@@ -17,5 +17,3 @@ Integrate all modules, manage environments, and deploy the full application reli
 ```r
 install.packages(c("shiny", "rsconnect", "renv", "testthat"))
 
-
----
