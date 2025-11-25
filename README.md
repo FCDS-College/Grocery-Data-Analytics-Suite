@@ -30,13 +30,11 @@ install.packages(c("shiny", "shinythemes", "bslib", "shinyjs", "shinydashboard")
 📂 Folder Structure
 
 R/ui/
-├── app_ui.R                # Main Shiny UI layout
-├── theme.R                 # Global UI theme setup
-├── components/
-│   ├── navbar.R
-│   ├── sidebar.R
-│   └── cards.R
-└── onboarding_screens.R    # Introductory user guide screens
+├── main_page_ui.R
+│   ├── sidebar_ui.R
+│   ├── pages_dashboard_ui.R
+│   ├── theme.R
+│   └── styles.css
 
 
 ---
