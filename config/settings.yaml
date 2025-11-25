@@ -1,0 +1,27 @@
+# ================================
+# settings.yaml
+# ================================
+
+project:
+  name: "Delivery Analytics Suite"
+  version: "1.0.0"
+  author: "Eng. Anas Ibrahim"
+
+paths:
+  raw_data: "data/raw/deliveries_raw.csv"
+  cleaned_data: "data/cleaned/deliveries_clean.csv"
+  output_plots: "outputs/plots/"
+  output_clusters: "outputs/clustering/"
+  output_rules: "outputs/association_rules/"
+
+parameters:
+  cluster_count: 3
+  late_delivery_threshold: 60  # minutes
+
+association_rules:
+  support: 0.01
+  confidence: 0.40
+  maxlen: 4
+
+visualization:
+  theme: "flatly"
